@@ -123,3 +123,18 @@ li {
     border-radius: 20px;
     font-weight: 500;
 }
+
+@keyframes apparition {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);  
+  }
+}
+
+body {
+  animation: apparition 1s ease-out;
+}
